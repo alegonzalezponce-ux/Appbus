@@ -1817,14 +1817,7 @@ body.v925-logged #v925Logout{display:flex!important}
 </style>
 </head>
 <body>
-<div id="v924Gate"><div class="v924box">
-<div class="v924title">TURNOS BUS URBANOS</div><div class="v924sub">Acceso personal · App by 172</div>
-<input id="v924User" type="text" inputmode="numeric" autocomplete="username" placeholder="Nº de conductor">
-<input id="v924Pass" type="password" autocomplete="current-password" placeholder="Clave nueva">
-<label class="v924remember"><input id="v924Remember" type="checkbox"> Mantener sesión abierta en este dispositivo</label>
-<button id="v924Enter" type="button">ENTRAR</button>
-<button id="v924Change" type="button">CAMBIAR MI CONTRASEÑA</button>
-<div id="v924Err"></div></div></div>
+</div>
 
 <div id="driverAuthGate" role="dialog" aria-modal="true" aria-label="Acceso a Turnos EMTUSA">
   <div class="firebaseAuthCard">
@@ -5233,45 +5226,9 @@ document.addEventListener('contextmenu', function(e){
 })();
 </script>
 
-<script id="v978-auth-script">
-(function(){"use strict";
-const AUTH={"1":"77fce2c20e67186d8fa458044879f1734e98d313b32a40d77a12f0a200c33f85","2":"35c370ededc3cd1124bdb43127164c9df577bbd5829777a3c3733351915d6eef","3":"d2bf8f6c7e329f295568d3d81e296845ef9e4e1d1645b277b6912812af3b015f","127":"b51aceacf27abd8aea82c41094b21d176ba4dc430755515db31ddfa5fc10d43f","54":"7c8a6b632e0c47c1556c7bde2075d71bf89a7b67ffded2d1a54e35c62339f98e","6":"955f5c5f923a88532634a10a06e612560d5a5da636cd42538160074dcb2b5536","115":"471b512249fefdd219cc9166ff18c85979e8ca4f07d2e5fda2c4124d0a4f773e","8":"cc164b8c95a2cfbcc8ec299febee52cf12cbd401e3290c6629d3aa95f03ddad7","170":"4f2402e76eb0b5f20628144c6ac4e339478c05495e6481cb216dd9b653e4e97a","36":"e3dcad846e35a05a27b1ec07b828e48ae4777e5fe1bf8715f4d173173d185f04","11":"ec2ac89020068cd9ac287f1c56d5c9f5141ed4ff552ace0539fc06d369ca7722","12":"5c72e4cc61e4f53a9bc79e0d3c745c7075617b68518135bdf07222cb76ebab73","135":"6c16841973b8276f4468ca4655fb9f17955448ee57b7819ac3ff32d43479bb10","140":"ee7f7325fc8c54fce4c1e6209e98e0e10dcb1bf003b590575471b89b27890aa3","141":"659a13874ce6ac6737e7da8448f2200256c32a197dbad5d0d9e77df5c47cd11a","104":"97c4c607fc15112185ec0390824a34c5083859c533a980e2166fbf45f8a5a463","117":"20a4468536ca58716bc29e644683e4faa8654f629d37c4470b7603d0a9a8be08","18":"646019a786cf8b32e672021f7709d1a7b3005b1a986db95903710328f8c7813d","19":"6fff681b217550077d16d020749cd47081576eaf32f039d2b7038365ef836948","20":"9929d936934b9fd9417a98777fceffbc8f60e9fb5c93b9f7b5db407d163b04e1","174":"5b28fc43323940d205e4649b92e6f92de6272899a3d77d8bb3b87c946e87b0a6","22":"0f6eb43d5e1a9da8b3aab8f9221f340a4bed4708b08600a6584af6670861d83a","155":"ee954eee3d4064868cdad7d3de73741043dd31d4639427c0ec10f922a26c1555","24":"d39d42ca83d3478af2de666bf221df3f46dc3ee11cef667b57d7a79af4026d0c","25":"64ab3a74046c8f8fcc166086c4fad3a0ad7990204d5def15f6edad5b063fd46d","26":"1c2c986e2cd0b19abc7a33f7aa5e23c93789745128521aa5559abe6c1fd80280","134":"9477068da0296febda42b563172ef0ba7c9a70c1fa5a0855e8e86b7126ce02e9","88":"318b2e3178a4b5913ec346417888cbc00bfed63c7b1140d8329efa50750350d2","167":"ee984b21c14de89e11a2758b121135d5122c2095edfaa825ae5505ea669c8b14","169":"7f0ee225177415fd6532313e7604364f122eadf0ba05b6fca7cb9e3c383fe2c8","116":"9e6d3094a521b4bc5d00bf6996107a78f32ad2bce92a6b9cd09b11195b05d561","32":"e7e24a8871b8747d91f53f23aca59ec70894085bf0379477ec4daa114c8b6d6e","143":"cc277de7a9f9c3c11c58188201d011a9b5a8fa5ac2d59dbe0ae1081493a3f85c","146":"1bd847a2feeb5fe16ad0bb3b216aa01987ae2a48252b5683c55139ac02c7fc36","147":"4207c9c0d8667f0e6433990d1b34f266ebf68cb813a3610e241b61c9ad161472","148":"d877765f7c790ee2acb74cfbca46de48d1a809b1c2dacd060d7125e7f0498d60","68":"f828e54ca6b5a739b660bc828f89611864e9385f0cebe0a76ed0e1e34b275e10","151":"031e4440887a1c77f77f04320e6cd177500df2864fd7742bf328dd0adcba281e","35":"2fc3132761a7d78089220bb2d97d7600a3ebef74104927fe808fa1f0adcd14f7","109":"b95f86fbda0bb6bd685a33dab3b70e9a6f4fbfa0ebba91b25aa60def03172151","37":"957f462e0d32be7a640465b418da31f942fe57851adabb2b8332edd2171177ef","38":"2b0999bf7225852181f98c7a4c89cec7b799c3496273dbed360a0aa57c70ce05","168":"8dc081767fa248f7299cc384a21cdf1cae812263add16957092e7109efcc6834","40":"8b2717fad81e196402c2807963ffbbb6c29f3a003bf20ce9ca916f2022e34c8b","41":"990b18b27a2309f1883e1435c58f422e3ce914477b9531d9e565d65b02a9bef5","120":"6c97bdae420902222edf32225e019c35811cfe0c579eaaf9fa0397b19aacd72f","110":"337bc8bbf36e36467f3b8ff12aafa5c28b7e6c6594c2b619b69d51d6482abe41","154":"928dbd9475d093e5fe395191dfd202d961c69b54d7cebd1a79dc1f363003caf3","53":"0024acd5576177dc655092fb9630529910f2839eb86d49e7c95dc98d3ab1cbe0","138":"01073931293d0aa7ab0500826800ccde3eaa20760ba8307b82c854f11b4103b8","121":"229b03f0ed147b62cba44382a3b2e237286e966eb6e6dd65abcd83ce97344112","47":"96497e75e777bfc3744c39bb70e9be555218ad368f816fa74c9fa31a4cce2224","132":"cabf51fa3262aecd19944745d2a61aea896aa0dae98c0ee6b8a15aaf173de282","172":"8e7aedd9a29318895e0c3330a23e48928ae52876d0ea9976e51f6b99e4f14615","157":"32e32d3abd780a5fdac292e20ab07b199b8cbb70111795c281422dbc9f78ca34","159":"f49ac59ba3df14b1c64e6bc7b30670c8b8b381c7789199a8264cf74f8007dce5","158":"2ba45c385044bc86eaf342cbd2cebc39094de8f92a78a41da829ad0b89591759","156":"900e2a93990f8475bdf66f5502007072b0b7cd6647e9ad8bdc8ad148c8d74e50","162":"b7dec38178844c24ad8a539281bc9050b91dcfb8f6840b44a68cdb09ecb5ee85","160":"a8c286bbe497d8baf0843c5bb3db789cfd04574e65d59ebec3a2cc5a88c43f9a","163":"9961e69674b8498422606511643023937e07645342781a22803372d147bc2fb0","164":"30fc78a8e9e573d290d07e5e00da6a0dd514b2845135f415548a46ed5ba4b8a2","165":"e4b77760b861910995872b8ff415e466d4b3952a160b0ede23d6cfcc54fc1752","166":"c3d9f569b0c496f4bd788c623f3d72831225373ff15f7728f5c94b7252482ed5","92":"33aa3cf1bc51677f40ccad90fac848598f0e01dde11173423b1bf1438285a6d9","161":"6c1f8ec43146d4ef507492239f899984b694eaa0b27bdb8afe58eac7373ce414","123":"bfe58c40ba8359f993e2a31cce92b0410e85e3284aa132a23e595be333feb27d","55":"e0ee31a00c54670724c9c10cefc1ad4ec843a7362c82898c781fa818d91fd946","56":"aff67a4a7012e53be24613da9b57ec54638c762a7397cdc1b3149afaa6a11e36","57":"fc02fd3c42a9fd416cee06e726ecc04ec610a325b16d34e093e0e7597afe0a2f","114":"c6f80bd2df4323876ef6658f97362ad2a8b4e890fe4a6f60c42b63e4971a900b","112":"53267215f626bffb66c819dd83c69b11d5893670e2c6650e8b076541ba941bbc","58":"a76eee92568697f7259fb634bd8748d85dffebf09ee20876eb8b4c2866e9c2dc","139":"02d62b755060437d1c4599a05dd8d244de92b87681138afbb5f5a368faaf7ae8","60":"9ce6d9df09b3ea8db850110b937d310491758481bbf01f00d0e38041bfd08dab","61":"e7fc1558d8afdd7e61d6eb7182c5f896f9142edf5bade0572bd51f0443676283","62":"8dd8668d07d0dd93bf1faed64443522ad50b5ee30e01cbacd551d940c18f06e3","63":"8796d82b1c0edad667529a611a44f73f2d52b90c5f263995375c59cdf7f6699c","125":"11b3935e88a8119ec4e42487a0a3fa07d0cf5dcdd9e69dee6ea8818d52ee6591","65":"b28862596c253b72c53c4e532e622e1b5c7fd3fc5b946c8a4a60a266b82b541a","74":"c0b777204eef550f499a4706c27c32c31c7f63b5b2ad67317640ff91c2a2465c","43":"115f16838bda78c57c0463d782e7aecf8da173406bb2d5385952f7c4a15a7601","149":"7e250612ce1ee1b9e4adb1d80781567fc494db31922b6383c818fd0086fac43a","69":"7b86581b2fd8002227acf89f03834d60ac831cadef8f12013bf7bdb175bc8562","144":"dc7fba1535a0fc1d3f41c6448a1866a3d8660c4b87a93876a5d4b6641d8397f0","173":"2390686acafa684bedf16148d329f29b82e6e69ccfbda61fa058424f891b4a78","72":"9f39e8f85142bca6b3d2c2319ca2256a1a454fded808218bda005ade6981710c","131":"2d136fdc08591d7350201d31ce1ddbcda7a2002ea36f88dd7912011280f7918e","107":"c093a68109320860df8e3a6ee4bb607e7b667b8d5046af172c49287953eb68d0","150":"13ac1dba73ea91369214e03145373d9ccb3de46adfbb6b503f5ce74c05547079","5":"bc582c43ae11c593516362fc5e530b229def729b189ac31558394ae871cc5663","77":"e81ddd0e3c09b43eeff19277d3d2564c889b583f6ab5038f0b8d3861720d88db","118":"bf8141acc7ee98605e6e680f35de55dc867cba4aff1a6879ef2694c2a6baf885","79":"c648032506965340a983ca11eb11bf9fdd470810d5094ba416d29a71bef0f091","171":"af9be76e0ed68ff96f70fe4e59af8208c4c575ce7034f13b7db18a9f43177154","175":"a23a4ec95e8005641814ffa74a35cb8bac92708d68ab8ffb1f2eeffdfc4081d3","82":"f1ed1f27064645c8e64b2416bff9f34520f739e266d364a0aa71b97be771a1e0","209":"0e31ecb1f9a01a60f6f75d47bf829dc6438ee10fb77a7c8a3b97d5ee9b0a8fd0","84":"d885aeeaacd2b5b66e6dacfb66a18fe8fd7d4189643aa2dc14cec4a887654a43","48":"aa69d2d4e7fb3d28a2af878ad4cbee5ad080a5742c4961a779c683974bfbb069","67":"2b9b5fd07c0aaa512749d196c44d9b8e2e20ef99abb49b06609bfb17a5214f3b","122":"0cdbfa3d0922f3c18b683f32c70de5a0d13dd49ecdf89d7615a1e3a1f51f3dc6","207":"e18ffb8919ef447d79300edde47e874b32b005ce88220fba7b8e3f8ccf3ee187","145":"17f22247dd353ba682bcd6a218734db6fcec767dd116705d66d7de37273adce0","91":"a40120fc9bcce433ae91e5aceaee683f60c511f4647d4da5cc5f56fc0c9e992c","111":"38c0945357d6a455c1db596ee0e2f802a07fd705a1214d3a93f8ebc4bbf81cf5","126":"ce94ce83e144b4052c8cc7da5148a656b1bdd091e3f521e52ec2b5b9aedbae0d","124":"a3962b6d5e2b353576dccb3eb92fca756413318f9d139d23b77786434cc7b91d","128":"2d15f94d87a6a1ec392fd43d7d0927e439699984f0775dcc974acda2c3e077ef","176":"5d8cb6ba0fd8d05749f9043e6d0d8452c233c7ed6c7e3b890943c20118787eaf","130":"ef3b4ae4fe0d885f6400b22a4bfb58134dcf626918b115972f9302636b057446","133":"1f06b5ec6d1d441929aee479ab690ce16feb3db0ca87e500b43bf5f6d233feff","106":"d2428166f6ca848b94d0bd6f4659e4a7bcbf59fa15cdf8dfa5f379d9fc3ea1fa","78":"affc15a89727a0620c3627ce64d0f50bcab86b2ea2a815ac99e71f6cf40c1acc","105":"527d9e403c785ff19283711dd447c43c7b0ece08fbd99170a54a974baaae9bc5","142":"b01fb8df17edb5964ce92caf364d3528d4644d51da51122d8cc620dde883b718","ADMIN":"61b7600b6be79ba4e0748934515176232d8331fd4f323b21619fb297c5914642"}; const SALT="ACU-V9.78-2026:"; const $=id=>document.getElementById(id); const norm=v=>String(v||"").trim().toUpperCase();
-async function digest(s){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s));return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,"0")).join("")}
-async function valid(u,p){return !!AUTH[u]&&!!p&&(await digest(SALT+u+":"+norm(p)))===AUTH[u]}
-function forceOwn(){const u=window.EMTUSA_SESSION_USER;if(!u||u==="ADMIN")return;const s=$("driverCardDriver");if(s&&String(s.value)!==u){s.value=u;localStorage.setItem("emtusaLastDriver",u);if(window.renderDriverCard)window.renderDriverCard()}}
-function unlock(u){window.EMTUSA_SESSION_USER=u;sessionStorage.removeItem("acuSessionUser");$("v924Gate")?.classList.add("off");document.body.classList.toggle("v924-private",u!=="ADMIN");if(u!=="ADMIN"){localStorage.setItem("emtusaLastDriver",u);setTimeout(forceOwn,20)}}
-async function login(){const u=norm($("v924User")?.value),p=$("v924Pass")?.value||"",e=$("v924Err");if(!u||!p){e.textContent="Introduce número de conductor y clave.";return}if(await valid(u,p)){e.textContent="";if($("v924Remember")?.checked){localStorage.setItem("acuRememberUser",u);localStorage.setItem("acuRememberAuth",AUTH[u])}else{localStorage.removeItem("acuRememberUser");localStorage.removeItem("acuRememberAuth")}unlock(u)}else e.textContent="Número de conductor o clave incorrectos."}
-$("v924Enter")?.addEventListener("click",login);$("v924Pass")?.addEventListener("keydown",e=>{if(e.key==="Enter")login()});$("v924Change")?.remove();
-$("personalAreaBtn")?.addEventListener("click",()=>setTimeout(forceOwn,0),true);const ds=$("driverCardDriver");if(ds)ds.addEventListener("change",e=>{const u=window.EMTUSA_SESSION_USER;if(u&&u!=="ADMIN"&&String(ds.value)!==u){e.stopImmediatePropagation();ds.value=u;setTimeout(forceOwn,0)}},true);
-const remembered=localStorage.getItem("acuRememberUser"),rememberedAuth=localStorage.getItem("acuRememberAuth");sessionStorage.removeItem("acuSessionUser");if(remembered&&AUTH[remembered]&&rememberedAuth===AUTH[remembered]){if($("v924User"))$("v924User").value=remembered;if($("v924Remember"))$("v924Remember").checked=true;unlock(remembered)}else if(remembered&&$("v924User"))$("v924User").value=remembered;
-})();
-</script>
-<button id="v925Logout" type="button" title="Cerrar sesión">⎋ Cerrar sesión</button>
-<script id="v925-logout-script">
-(function(){
- var b=document.getElementById("v925Logout");
- if(!b)return;
- function sync(){
-   var logged=!!(window.EMTUSA_SESSION_USER||sessionStorage.getItem("emtusaSessionUser"));
-   document.body.classList.toggle("v925-logged",logged);
- }
- b.addEventListener("click",function(){
-   if(!confirm("¿Cerrar la sesión actual?"))return;
-   localStorage.removeItem("emtusaRememberSession");
-   sessionStorage.removeItem("emtusaSessionUser");
-   window.EMTUSA_SESSION_USER="";
-   document.body.classList.remove("v924-private","v925-logged");
-   var g=document.getElementById("v924Gate");
-   if(g)g.classList.remove("off");
-   var u=document.getElementById("v924User"),p=document.getElementById("v924Pass"),r=document.getElementById("v924Remember"),e=document.getElementById("v924Err");
-   if(u)u.value=""; if(p)p.value=""; if(r)r.checked=false; if(e){e.textContent="Sesión cerrada correctamente.";e.style.color="#15803d"}
- });
- var obs=new MutationObserver(sync);
- var gate=document.getElementById("v924Gate");
- if(gate)obs.observe(gate,{attributes:true,attributeFilter:["class"]});
- setTimeout(sync,50);
-})();
-</script>
+
+
+
 <div id="v930Gallery">
  <div class="v930head"><b>🗂️ HOJAS DE SERVICIO</b><button class="v930close" id="v930Close">×</button></div>
  <div class="v930tools"><input id="v930Search" inputmode="numeric" placeholder="BUSCAR Nº DE SERVICIO"></div>
@@ -6852,6 +6809,8 @@ body[data-pdf-line="8"] #lineOfficialPdfBtn,body[data-pdf-line="8"] #lineRoutePd
 </style>
 <script id="line-pdf-route-v1017" src="bloque_08.js"></script>
 <style id="appbus-firebase-auth-v1022">
+#v924Gate,#v925Logout{display:none!important}
+
 html:not(.appbus-auth-ready) body { visibility:hidden!important; }
 body.appbus-auth-locked {overflow:hidden!important}
 body.appbus-auth-locked > *:not(#driverAuthGate) {visibility:hidden!important}
